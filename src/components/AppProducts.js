@@ -27,7 +27,7 @@ const AppProducts = () => {
         <div>
             <div>
                 <SearchProduct 
-                products={products}
+                products={products} 
                 />
             </div>
             <ul className="list-group">
