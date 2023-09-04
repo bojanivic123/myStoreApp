@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const SearchProduct = ({products}) => {
-    const [filteredProducts, setFilteredProducts] = useState(products);
+    const [filteredProducts, setFilteredProducts] = useState({products});
 
     const filterBySearch = e => {
         const searchValue = e.target.value;
